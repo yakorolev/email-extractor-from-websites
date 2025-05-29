@@ -1,0 +1,4 @@
+﻿country_code,university_name,university_url,source_url,email,needs_manual_check,match_reason,is_whitelisted
+DE,LMU Munich,https://www.lmu.de/,https://www.lmu.de/,info@lmu.de,no,,no
+DE,LMU Munich,https://www.lmu.de/phd,https://www.lmu.de/phd,phd@lmu.de,no,,no
+DE,LMU Munich,https://www.lmu.de/phd,https://www.lmu.de/phd,postdoc@lmu.de,no,,no
