@@ -19,20 +19,25 @@ examples/ # Example CSV files
 
 All CSV files are in UTF-8, comma-separated.
 
-### `universities.csv` (input)
+### `universities.csv` (input) 
 
-country,university_name,url
-GE,LMU Munich,https://www.lmu.de/
+country_code,university_name,url
+DE,LMU Munich,https://www.lmu.de/
 
-### `emails.csv` (from parser)
+### `input_urls.csv` (input) 
+
+url
+https://www.lmu.de/
+
+### `results_emails.csv` (from parser) in the next step we will use the file name "emails"
 
 url,emails
 https://www.lmu.de/,"info@lmu.de"
 
 ### `final_emails.csv` (merged)
 
-country,university_name,url,emails
-GE,LMU Munich,https://www.lmu.de/,"info@lmu.de"
+country_code,university_name,university_url,sourse_url,emails
+DE,LMU Munich,https://www.lmu.de/,https://www.lmu.de/phd, "phd@lmu.de"
 
 ---
 
