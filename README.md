@@ -75,3 +75,8 @@ DE,LMU Munich,https://www.lmu.de/,https://www.lmu.de/phd, "phd@lmu.de"
 ## 📄 License
 
 MIT
+
+## ☕ Support this project
+
+If you find this project helpful and time-saving, consider supporting it:
+👉 [Support on Patreon](https://www.patreon.com/yakorolev)
