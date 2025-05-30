@@ -3,6 +3,20 @@
 Email scraping and extraction tool using Scrapy.  
 Supports domain crawling, email filtering, and CSV result merging.  
 Originally developed for academic websites.
+In addition to the email extractor, this repo contains a validated list of 13,000+ universities worldwide.
+
+---
+
+📊 Full University Dataset
+This repository includes a full CSV dataset of global universities with the following fields:
+Column Name	Description
+country_code	ISO 3166-1 alpha-2 country code (e.g., AE, US)
+Name	Official name of the university
+web_pages	Main university website URL
+url_status_codes	Result of HTTP validation for the URL (e.g. [200], or ['ERROR: SSLError'])
+all_urls_valid	Boolean indicator (TRUE/FALSE) of URL validity
+📁 File: full_universities_list.csv
+This file was used to validate which university websites are reachable and suitable for crawling.
 
 ---
 
