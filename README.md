@@ -1,4 +1,4 @@
-# email-extractor-from-websites
+# university-email-extractor-and-dataset
 
 Email scraping and extraction tool using Scrapy.  
 Supports domain crawling, email filtering, and CSV result merging.  
